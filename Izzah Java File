@@ -1,0 +1,78 @@
+//import java.lang.ProcessBuilder.Redirect.Type;
+import java.util.*; //-> import all classes inside java.util package
+//import java.util.Scanner;
+
+public class Practice {
+    public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
+        /*
+        System.out.println(Math.pow(2,4));
+        //int number = 23;
+        //float power = 1.0f / 10 ;
+        System.out.println(Math.pow( number , power));
+         This is a comment. 
+
+         // String class -> String datatype -> sentence -> ""
+         // Integer -> +/- without decimal
+         // Floating point numbers -> float -> +/- with decimal
+         System.out.println(((Object)29.6).getClass().getSimpleName());
+         // concept of data type spaces & why the above line says double?? -> next class
+         // escape characters -> next
+         String s = "Hello World";
+         Scanner in = new Scanner(System.in);
+         System.out.print("Enter number of fruits : ");
+         int number_of_fruits = in.nextInt();
+         System.out.print("Enter cost of each fruit : ");
+         int cost_of_each_fruit = in.nextInt();
+         System.out.println("The total cost is = "+(number_of_fruits * cost_of_each_fruit));
+         
+        long i = 2147483648l;
+        long j = i + 7245;
+        System.out.println(Integer.MAX_VALUE);
+      //   in.close();
+      */
+         /*
+        String s = "Hello I am here\nYes yes";
+        System.out.println(s);
+
+        int i = (int)-38.24;
+        System.out.println(i);
+
+        int f = (int)29.021;
+        System.out.println(f);
+
+        // number 1 / number 2 -> quotient and remainder
+        // number2 = (quotient * number1) + remainder
+        System.out.println("6 / 3 gives us "+6/3+" <- quotient | remainder -> "+6 % 3);
+
+        
+        int num = in.nextInt();
+        System.out.println(num%2);
+      //  System.out.println(num++); // Post Increment; num++ -> num = num + 1 after the line gets over 
+      //  System.out.println(++num); // pre increment; ++num -> num = num + 1 at that moment
+        System.out.println((++num)+","+(++num)+","+(++num)+",");
+        int var = 100;
+        while(var > 0)
+        {
+          System.out.println(var--);  // Post Decrement; num-- -> num = num - 1 after the line gets over
+        }                             // Pre Decrement;  --num -> num = num - 1 at that moment
+        //System.out.println(var);
+     
+        if( num % 2 == 0)
+          System.out.println("Even");
+        else
+          System.out.println("Odd");
+        */
+
+        int f = 23;
+        int a = 4;
+        //f += 7;
+       // f -= 7;
+        f += 12;
+        f *= 10;
+        f -= 18;
+        System.out.println(f);
+        in.close();
+    }
+    
+}
